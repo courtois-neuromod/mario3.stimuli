@@ -1,0 +1,1 @@
+acd1221c-65ea-4f8d-86bd-816cd9a2cedd autoenable=true bucket=cneuromod.mario3.stimuli chunk=1GiB datacenter=US encryption=none exporttree=no host=s3.unf-montreal.ca name=s3unf.cneuromod.mario3.stimuli port=443 protocol=https requeststyle=path storageclass=STANDARD type=S3 timestamp=1658155909.124730075s

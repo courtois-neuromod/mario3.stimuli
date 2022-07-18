@@ -1,0 +1,52 @@
+{
+  "info": {
+    "behind_bg_timer": {
+      "address": 1416,
+      "type": "|u1"
+    },
+    "complete_level": {
+      "address": 20,
+      "type": "|u1"
+    },
+    "level_beaten": {
+      "address": 1811,
+      "type": "<u4"
+    },
+    "lives": {
+      "address": 1846,
+      "type": "|i1"
+    },
+    "score": {
+      "address": 1813,
+      "type": ">u3"
+    },
+    "time": {
+      "address": 1800,
+      "type": ">u4"
+    },
+    "timer_1": {
+      "address": 1520,
+      "type": "|u1"
+    },
+    "timer_10": {
+      "address": 1519,
+      "type": "|u1"
+    },
+    "timer_100": {
+      "address": 1518,
+      "type": ">u1"
+    },
+    "world": {
+      "address": 1831,
+      "type": "|u1"
+    },
+    "x_pos_map": {
+      "address": 121,
+      "type": "|u1"
+    },
+    "y_pos_map": {
+      "address": 117,
+      "type": "|u1"
+    }
+  }
+}

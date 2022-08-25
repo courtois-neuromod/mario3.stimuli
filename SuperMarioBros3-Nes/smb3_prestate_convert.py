@@ -18,6 +18,15 @@ for state_file in sorted(glob.glob('./*pre.state')):
         # enter the level by moving in the overworld
         for i in range(60):
             obs=env.step([False]*4+[True]+[False]*7)
+    elif "Airship" in state_file:
+        # Enter the level
+        obs=env.step([False]*8+[True]+[False]*3)
+        # Wait for the anim to start
+        while obs[3]['level_entrance']==0:
+            obs=env.step([False]*12)
+        # Wait for the anim to stop
+        while obs[3]['level_entrance']!=0:
+            obs=env.step([False]*12)
     else:
         obs=env.step([False]*8+[True]+[False]*3)
     # step until the timer is starting

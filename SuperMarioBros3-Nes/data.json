@@ -4,6 +4,10 @@
       "address": 1416,
       "type": "|u1"
     },
+    "coins": {
+      "address": 32162,
+      "type": ">i2i"
+    },
     "complete_level": {
       "address": 20,
       "type": "|u1"
@@ -11,6 +15,10 @@
     "level_beaten": {
       "address": 1811,
       "type": "<u4"
+    },
+    "level_entrance": {
+      "address": 1349,
+      "type": "<i2"
     },
     "lives": {
       "address": 1846,

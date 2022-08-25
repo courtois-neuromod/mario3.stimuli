@@ -6,7 +6,7 @@
     },
     "coins": {
       "address": 32162,
-      "type": ">i2i"
+      "type": "<i2"
     },
     "complete_level": {
       "address": 20,

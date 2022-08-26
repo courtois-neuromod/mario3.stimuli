@@ -16,6 +16,14 @@
       "address": 1846,
       "type": "|i1"
     },
+    "mario_form": {
+      "address": 1400,
+      "type": "|u2"
+    },
+    "object_set": {
+      "address": 1802,
+      "type": "|u1"
+    },
     "score": {
       "address": 1813,
       "type": ">u3"

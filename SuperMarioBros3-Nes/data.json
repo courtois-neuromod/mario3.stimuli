@@ -8,9 +8,9 @@
       "address": 20,
       "type": "|u1"
     },
-    "level_beaten": {
+    "killed": {
       "address": 1811,
-      "type": "<u4"
+      "type": "|u1"
     },
     "lives": {
       "address": 1846,

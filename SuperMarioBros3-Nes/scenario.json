@@ -2,10 +2,12 @@
   "done": {
     "variables": {
       "lives": {
-        "measurement": "delta",
         "op": "negative"
       },
       "complete_level":{
+        "op": "greater-than"
+      },
+      "killed":{
         "op": "greater-than"
       }
     }

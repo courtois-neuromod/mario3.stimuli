@@ -16,6 +16,10 @@
       "address": 1846,
       "type": "|i1"
     },
+    "level_entrance": {
+      "address": 1349,
+      "type": "<i2"
+    },
     "mario_form": {
       "address": 1400,
       "type": "|u2"

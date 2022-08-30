@@ -6,9 +6,6 @@
       },
       "complete_level":{
         "op": "greater-than"
-      },
-      "killed":{
-        "op": "greater-than"
       }
     }
   },
